@@ -2,7 +2,7 @@
 function converter(){
 
     let vconvertidor = document.getElementById("valorAserConvertido").value,
-            dolaratual = 4.62, 
+            dolaratual = 4.64, 
                 res = vconvertidor / dolaratual, 
                     mostrar = document.getElementById('convertido');
 
