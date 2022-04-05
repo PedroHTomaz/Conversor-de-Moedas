@@ -1,0 +1,18 @@
+.container {
+
+}
+
+.box {
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+}
+
+p#convertido {
+    border: 1px solid black;
+    width: 31%;
+    height: 19px;
+}
