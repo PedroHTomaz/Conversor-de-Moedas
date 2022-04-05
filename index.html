@@ -9,12 +9,11 @@
     <script src="script/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            Informe o valor que deseja converter R$<input type="number" name="valorAserConvertido" id="valorAserConvertido" placeholder="Ex: 3.500">
-            <input type="button" value="Converter" id="bconverter" onclick="converter ()">
-            <p id="exit"></p>
-        </div>
+    <div class="box">
+        <h1>Conversor de Moedas</h1>
+        Informe o valor que deseja converter para Dólar. <b>R$</b><input type="number" id="valorAserConvertido" placeholder="Ex: 3500">
+        <button type="button" id="bconverter" onclick="converter()">Converter</button><br><br>
+        <label>O valor em <b>Dólar</b> é:</label><p id="exit"></p>
     </div>
 </body>
 </html>

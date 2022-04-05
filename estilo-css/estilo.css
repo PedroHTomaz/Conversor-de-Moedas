@@ -1,18 +1,39 @@
-.container {
-
+body {
+    background-image: url("../fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
 }
 
 .box {
     border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px black;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     padding: 10px;
+    background-color: rgba(172, 216, 172, .8);
+    text-align: center;
 }
 
-p#convertido {
+p#exit {
     border: 1px solid black;
-    width: 31%;
-    height: 19px;
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button#bconverter {
+    margin-left: 5px;
+    height: 30px;
+}
+
+input#valorAserConvertido {
+    width: 150px;
+    height: 25px;
 }
