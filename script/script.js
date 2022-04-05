@@ -1,8 +1,11 @@
-let vconvertidor = document.getElementById("valorAserConvertido")
-let dolaratual = 4.62
-let res = vconvertidor / dolaratual
 
-function converter () {
-    getElementById('bconverter') = res
+function converter(){
+
+    let vconvertidor = document.getElementById("valorAserConvertido").value,
+            dolaratual = 4.62, 
+                res = vconvertidor / dolaratual, 
+                    mostrar = document.getElementById('convertido');
+
+    mostrar.innerHTML = res.toFixed(2)
+
 }
-console.log(`O valor em dolar fica ${res}`)
