@@ -2,7 +2,7 @@
 function converter(){
 
     let vconvertidor = document.getElementById("valorAserConvertido").value
-    let dolaratual = 4.65 //Cotação do dia 05.04.2022
+    let dolaratual = 4.69 //Cotação do dia 06.04.2022
     let res = vconvertidor / dolaratual
     let mostrar = document.getElementById("exit")
 
